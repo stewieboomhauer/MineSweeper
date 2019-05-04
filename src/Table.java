@@ -22,12 +22,17 @@ public class Table {
                }
             }
         }
+    }
+    public String toString(){
+        StringBuilder result = new StringBuilder();
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++) {
-                System.out.print(state[i][j]);
+                result.append(state[i][j]);
             }
-            System.out.println();
+            result.append('\n');
         }
+        return result.toString();
     }
+
 
 }

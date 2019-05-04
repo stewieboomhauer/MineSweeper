@@ -10,7 +10,7 @@ public class Main {
 		double p = sc.nextDouble();
 
 		Table t = new Table(n, m, p);
-
+		System.out.println(t);
     }
 }
 
